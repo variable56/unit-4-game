@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/javascript/game.js"></script>
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-md-12 m-3 container bg-info container" id="title">
+            <h3>Crystal Collector</h3>
+        </div>
+    </div>
+    <div class="row d-inline-flex flex-row justify-content-end">
+        <div class="col-md-8 bg-success" id="instructions">
+            <p>You will be given a random number at the start of the game.
+                <br>
+                There are four crystals below. By clicking on a crystal you will add a specific amount of points to
+                your total score.
+                <br>
+                You win the game by matching your total score to random number, you lose the game if your total score
+                goes above the random number.
+                <br>
+                The value of each crystal is hidden from you until you click on it.
+                <br>
+                Each time when the game starts, the game will change the values of each crystal.
+            </p>
+        </div>
+        <div class="col-md-4 bg-warning">
+            <p id="totalScore">Points: </p>
+            <br>
+            <br>
+            <p id="targetScore">Target Points: </p> 
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" id="gemContainer"></div>
+        <div class="col-md-12">
+            <img src="./assets/images/1_2ZUl58nn7zuFfroXG4hgOQ.png" alt="gem1pic" id="gem1">
+            <img src="./assets/images/5d05753f27b250a477c4d7b63a5cc87c.png" alt="gem2pic" id="gem2">
+            <img src="./assets/images/emerald-theme-manager-icon-icon.png" alt="gem3pic" id="gem3">
+            <img src="./assets/images/spectacular-ruby-stone-png-2.png" alt="gem4pic" id="gem4">
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
