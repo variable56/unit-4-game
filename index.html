@@ -19,10 +19,16 @@
 </head>
 
 <body>
+    <nav id="crystalNav" class="navbar sticky-top d-flex align-items-center bg-light border-bottom">
+        <span class="navbar-brand mb-0 h1">
+            <h3 class="m-0">Crystal Collector</h3>
+        </span>
+    </nav>
     <div class="row">
-        <div class="ml-3 mr-3 jumbotron jumbotron-fluid col-md-12 border-bottom-3 border-info">
+        <div class="ml-3 mr-3 jumbotron jumbotron-fluid col-md-12">
+            <div class="container mx-auto">
             <div class="col-md-12">
-                <h1 class="display-4 text-center mb-3">Crystal Collector</h1>
+                <!-- <h1 class="display-4 text-center mb-3">Crystal Collector</h1> -->
                 <div class="row">
                     <p class="lead col-md-8">You will be given a random number at the start of the game.
                         There are four crystals below. By clicking on a crystal you will add a specific amount of
@@ -36,7 +42,7 @@
 
 
                     <div class="col-md-3">
-                        <ul class="list-group container bg-light pr-0">
+                        <ul class="list-group  bg-light pr-0">
                             <li class="list-group-item" id="totalScore">
                                 <h3>Total Points: 0</h3>
                             </li>
@@ -45,19 +51,21 @@
                             <li class="list-group-item" id="losses">Losses: 0</li>
                         </ul>
                     </div>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="container">
-            <div id="gemContainer"></div>
-            <div class="img-fluid">
-                <img src="./assets/images/1_2ZUl58nn7zuFfroXG4hgOQ.png" alt="gem1pic" id="gem1">
-                <img src="./assets/images/5d05753f27b250a477c4d7b63a5cc87c.png" alt="gem2pic" id="gem2">
-                <img src="./assets/images/emerald-theme-manager-icon-icon.png" alt="gem3pic" id="gem3">
-                <img src="./assets/images/spectacular-ruby-stone-png-2.png" alt="gem4pic" id="gem4">
-            </div>
+    <div class="container">
+        <div id="gemContainer"></div>
+        <div class="img-fluid">
+            <img src="./assets/images/1_2ZUl58nn7zuFfroXG4hgOQ.png" alt="gem1pic" id="gem1">
+            <img src="./assets/images/5d05753f27b250a477c4d7b63a5cc87c.png" alt="gem2pic" id="gem2">
+            <img src="./assets/images/emerald-theme-manager-icon-icon.png" alt="gem3pic" id="gem3">
+            <img src="./assets/images/spectacular-ruby-stone-png-2.png" alt="gem4pic" id="gem4">
         </div>
+    </div>
 
 
 
