@@ -5,7 +5,7 @@ $(document).ready(function () {
     var gem2val = Math.floor((Math.random() * 11) + 5) * 10;
     var gem3val = Math.floor((Math.random() * 11) + 5) * 10;
     var gem4val = Math.floor((Math.random() * 11) + 5) * 10;
-    var targetPoints = Math.floor((Math.random() * 11) + 1) * 100;
+    var targetPoints = Math.floor((Math.random() * 11) + 10) * 100;
     var wins = 0;
     var losses = 0;
     console.log(gem1val);
@@ -17,11 +17,11 @@ $(document).ready(function () {
 
     function ifWin() {
     points = 0;
-    gem1val = Math.floor((Math.random() * 11) + 1) * 1;        
+    gem1val = Math.floor((Math.random() * 11) + 1) * 5;        
     gem2val = Math.floor((Math.random() * 11) + 1) * 5;
     gem3val = Math.floor((Math.random() * 11) + 1) * 10;
     gem4val = Math.floor((Math.random() * 11) + 1) * 10;
-    targetPoints = Math.floor((Math.random() * 11) + 1) * 100;
+    targetPoints = Math.floor((Math.random() * 11) + 10) * 100;
     $("#targetScore").html("<h3>Target Points: " + targetPoints);
     $("#totalScore").html("<h3>Total Points: " + points);
     wins++;
@@ -42,7 +42,7 @@ $(document).ready(function () {
     gem2val = Math.floor((Math.random() * 11) + 1) * 5;
     gem3val = Math.floor((Math.random() * 11) + 1) * 5;
     gem4val = Math.floor((Math.random() * 11) + 1) * 5;
-    targetPoints = Math.floor((Math.random() * 11) + 1) * 100;
+    targetPoints = Math.floor((Math.random() * 11) + 10) * 100;
     $("#targetScore").html("<h3>Target Points: " + targetPoints);
     $("#totalScore").html("<h3>Total Points: " + points);
     losses++;

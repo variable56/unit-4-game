@@ -19,44 +19,45 @@
 
 <body>
     <div class="row">
-        <div class="col-md-12 m-3 container bg-info container" id="title">
-            <h3>Crystal Collector</h3>
+
+        <div class="ml-3 mr-3 jumbotron jumbotron-fluid border-bottom-2-primary col-md-12">
+            <div class="col-md-12">
+                <h1 class="display-4 text-center">Crystal Collector</h1>
+                <div class="row">
+                <p class="lead col-md-8">You will be given a random number at the start of the game.
+                    There are four crystals below. By clicking on a crystal you will add a specific amount of points to
+                    your total score.
+                    You win the game by matching your total score to random number, you lose the game if your total
+                    score
+                    goes above the random number.
+                    The value of each crystal is hidden from you until you click on it.
+                    Each time when the game starts, the game will change the values of each crystal.
+            
+
+            <div class="col-md-4">
+                <ul class="list-group list-group-flush container">
+                    <li class="list-group-item" id="totalScore">
+                        <h3>Total Points: 0</h3>
+                    </li>
+                    <li class="list-group-item" id="targetScore">Target Points: </li>
+                    <li class="list-group-item" id="wins">Wins: 0</li>
+                    <li class="list-group-item" id="losses">Losses: 0</li>
+                </ul>
+            </div>
+            </div>
+            </div>
         </div>
-    </div>
-    <div class="row d-inline-flex flex-row justify-content-end">
-        <div class="col-md-8 bg-success" id="instructions">
-            <p>You will be given a random number at the start of the game.
-                <br>
-                There are four crystals below. By clicking on a crystal you will add a specific amount of points to
-                your total score.
-                <br>
-                You win the game by matching your total score to random number, you lose the game if your total score
-                goes above the random number.
-                <br>
-                The value of each crystal is hidden from you until you click on it.
-                <br>
-                Each time when the game starts, the game will change the values of each crystal.
-            </p>
+
+        <div class="container">
+            <div id="gemContainer"></div>
+            <div class="img-fluid">
+                <img src="./assets/images/1_2ZUl58nn7zuFfroXG4hgOQ.png" alt="gem1pic" id="gem1">
+                <img src="./assets/images/5d05753f27b250a477c4d7b63a5cc87c.png" alt="gem2pic" id="gem2">
+                <img src="./assets/images/emerald-theme-manager-icon-icon.png" alt="gem3pic" id="gem3">
+                <img src="./assets/images/spectacular-ruby-stone-png-2.png" alt="gem4pic" id="gem4">
+            </div>
         </div>
-        <div class="col-md-4 bg-warning">
-            <p><h3 id="totalScore">Total Points: 0</h3></p>
-            <br>
-            <p id="targetScore">Target Points: </p>
-            <br> 
-            <p id="wins">Wins: 0</p>
-            <br>
-            <p id="losses">Losses: 0</p>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row" id="gemContainer"></div>
-        <div class="col-md-12">
-            <img src="./assets/images/1_2ZUl58nn7zuFfroXG4hgOQ.png" alt="gem1pic" id="gem1">
-            <img src="./assets/images/5d05753f27b250a477c4d7b63a5cc87c.png" alt="gem2pic" id="gem2">
-            <img src="./assets/images/emerald-theme-manager-icon-icon.png" alt="gem3pic" id="gem3">
-            <img src="./assets/images/spectacular-ruby-stone-png-2.png" alt="gem4pic" id="gem4">
-        </div>
-    </div>
+
 
 
 
