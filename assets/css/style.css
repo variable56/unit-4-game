@@ -1,3 +1,19 @@
 body {
-    background-image: url(../images/extra_clean_paper\ copy.png);
+    background-image: url(../images/blurred-background-close-up-colors-1250260.jpg);
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
 }
+
+p {
+    line-height: 150%;
+}
+
+.jumbotron {
+    background: rgb(211, 211, 211); /* This is for ie8 and below */
+    background: rgba(211, 211, 211, 0.5); 
+ }
+
+ .list-group { background-color: rgba(245, 245, 245, 0.4);
+opacity: .6;
+}
+/* .card-header, .card-footer { opacity: 1} */
